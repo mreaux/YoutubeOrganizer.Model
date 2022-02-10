@@ -1,6 +1,5 @@
 ﻿namespace YoutubeOrganizer.Dtos
 {
-    // TODO: Setup Automapper
     public record VideoDto
     {
         public Guid Id { get; init; }
