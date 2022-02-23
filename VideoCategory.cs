@@ -2,8 +2,7 @@
 
 public enum VideoCategory : ushort
 {
-    All,
-    Cooking,
+    Cooking = 1,
     Development,
     Gaming,
     Miscellaneous,
