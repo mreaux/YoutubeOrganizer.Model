@@ -5,7 +5,7 @@ public class UpdateVideoDto
 {
 
     [Required]
-    public int Category { get; init; }
+    public int Category { get; set; }
     [Required]
-    public string[] Tags { get; init; }
+    public string[] Tags { get; set; }
 }
